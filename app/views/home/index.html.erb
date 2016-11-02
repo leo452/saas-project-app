@@ -1,4 +1,6 @@
 <% if current_user %>
+<h3 class="pull-right"> Organization: <%= @tenant.name %></h3>
+<%= render 'projects/list' %>
 
 <h3>Organization: <%= @tenant.name %></h3>
 
